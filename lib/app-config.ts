@@ -28,3 +28,4 @@ function resolveExtraConfig(): ExtraConfig {
 export const appConfig = resolveExtraConfig();
 export type { GoogleAuthConfig };
 
+

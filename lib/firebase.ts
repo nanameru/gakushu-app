@@ -7,3 +7,4 @@ const firebaseApp = getApps().length ? getApp() : initializeApp(appConfig.fireba
 
 export const auth = getAuth(firebaseApp);
 
+

@@ -1,3 +1,13 @@
+import * as Google from "expo-auth-session/providers/google";
+import Constants from "expo-constants";
+import * as WebBrowser from "expo-web-browser";
+import {
+  GoogleAuthProvider,
+  onAuthStateChanged,
+  signInWithCredential,
+  signOut,
+  type User,
+} from "firebase/auth";
 import { useCallback, useEffect, useState } from "react";
 import {
   ActivityIndicator,
@@ -9,16 +19,6 @@ import {
   Text,
   View,
 } from "react-native";
-import Constants from "expo-constants";
-import * as WebBrowser from "expo-web-browser";
-import * as Google from "expo-auth-session/providers/google";
-import {
-  GoogleAuthProvider,
-  onAuthStateChanged,
-  signInWithCredential,
-  signOut,
-  type User,
-} from "firebase/auth";
 
 import { appConfig } from "../lib/app-config";
 import { auth } from "../lib/firebase";
