@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.anonymous.gakushu-app"
     },
     "android": {
       "adaptiveIcon": {
@@ -51,7 +52,7 @@
         "appId": "1:493108990760:ios:5a73d2cdda8fde22d6761d"
       },
       "googleAuth": {
-        "expoClientId": "",
+        "expoClientId": "493108990760-0klloqh5idseabfct1bbd3a9epkscjoa.apps.googleusercontent.com",
         "iosClientId": "493108990760-vlvr8f14p9miadlsih14rotmlllnb303.apps.googleusercontent.com",
         "androidClientId": "",
         "webClientId": ""
